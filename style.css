@@ -1,0 +1,25 @@
+body {
+    background-color: blueviolet;
+}
+
+h1, h2, h3, p, a, label {
+    color: white;
+    text-align: center;
+}
+
+.login {
+    text-align: center;
+}
+
+.game {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: purple;
+}
