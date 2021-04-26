@@ -1,5 +1,9 @@
 localStorage = window.localStorage
 
+if (localStorage.getItem("Clicks") === null){
+    localStorage.setItem("Clicks", "0");
+}
+
 if (localStorage.getItem("DMON") === null){
     localStorage.setItem("DMON", "0");
 }
