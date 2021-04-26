@@ -1,5 +1,6 @@
 body {
-    background-color: blueviolet;
+    --customcolor: blueviolet;
+    background-color: var(--customcolor);
 }
 
 h1, h2, h3, p, a, label {
@@ -12,6 +13,10 @@ h1, h2, h3, p, a, label {
 }
 
 .game {
+    text-align: center;
+}
+
+.darkmode {
     text-align: center;
 }
 
