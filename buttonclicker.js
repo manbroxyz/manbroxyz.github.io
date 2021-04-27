@@ -20,6 +20,7 @@ function buttonClick(){
     }
 
     if (firstTimeInMS === 0){
+        firstDate = new Date();
         firstTimeInMS = 
             firstDate.getHours() * 60 * 60 * 1000
             + firstDate.getMinutes() * 60 * 1000
@@ -57,7 +58,7 @@ function buttonClick(){
         cps = (clicksSinceFirstTime / (timeInMS - firstTimeInMS) * 1000);
     }
     
-    if (cps > 25){
+    if (cps > 19.94){
         parsedClicks--;
     }
 
